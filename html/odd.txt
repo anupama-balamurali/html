@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>ODD OR EVEN</title>
+<body>
+<h1>ODD OR EVEN</h1></head>
+ <form method="POST">
+ PLEASE ENTER NUMBER: <input type="number" name="number">
+ <input type="submit"name="submit"value="submit">
+ </form>
+ </body>
+ </html>
+ <?php
+ if(isset($_POST['number'])){
+ echo"<b><u>NUMBER IS ODD OR EVEN</u></b><br>";
+ $n=$_POST['number'];
+ if($n%2==0){
+ echo"$n is even";}
+ else{
+ echo"$n is odd";
+ }}
+?>

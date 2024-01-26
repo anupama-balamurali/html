@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>mca</title>
+<body>
+<body bgcolor="violet">
+<center>
+<h1>MCA</h1>
+</center>
+<p><a><font size="5">MCA course or Master of Computer Application is a 
+postgraduate degree programme of two years which provides comprehensive 
+knowledge on the development of computer applications with the support of 
+contemporary programming languages. The students pursuing the Computer 
+Application course are given a chance to develop modern software through the 
+help of sophisticated tools and techniques. MCA course is stretched in a time
+span of four semesters where the students learn skill development in computers, 
+the conceptual study of the framework, and also work necessary project 
+work.</p></a></font size>
+<iframe src="ads.html" width="40%" height="50%">
+</body>
+</head>
+</html>
+
+<html>
+<head>
+<title>courses</title>
+<body bgcolor="blue"><center>
+<h1>COURSES</h1>
+</center>
+<h1><a href="mca.html"target="frame2">MCA</a></h1>
+<h1><a href="btech.html"target="frame2">BTECH</a></h1>
+<h1><a href="mtech.html"target="frame2">MTECH</a></h1>
+</body>
+</head>
+</html>
+
+
+<html>
+<head>
+<title>iframe</title>
+</head>
+<body bgcolor="white">
+<h1><center>ADS</center></h1>
+<marquee direction="right"><img src="C:\Users\hp\OneDrive\Pictures\Saved 
+Pictures\ads.jpeg"></img src></marquee>
+</body>
+</html>

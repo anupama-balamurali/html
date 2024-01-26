@@ -1,0 +1,22 @@
+<?php
+$cars = array("SHUBMAN GILL", "ROHIT SHETTY", "VIRAT KOHLI","KL 
+RAHUL","RAVINDRA JADEJA","SURYAKUMAR YADAV","SHREYAS 
+IYER","KULDEEP YADAV","MOHAMMED SHAMI","MOHAMMED 
+SIRAJ","RAVICHANDRAN ASHWIN");
+?>
+<html>
+<head><title>cricket</title></head>
+<body>
+<h1>INDIAN CRICKET PLAYERS</H1>
+<table border="1">
+<tr><th>SL N0</th><th>NAME</th><tr>
+<?php
+for($i=1;$i<12;$i++)
+{
+ echo"<tr><td>" .$i ."</td>";
+ echo"<td>" .$cars[$i-1] ."</td></tr>";
+ }
+?>
+</table>
+</body>
+</html>

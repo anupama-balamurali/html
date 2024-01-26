@@ -1,0 +1,24 @@
+<html>
+<title>color</title>
+<head>
+<body>
+<h id="h">This is a heading</h>
+<button onclick=changehead("red")>RED</button>
+<button onclick=changehead("yellow")>yellow</button>
+<button onclick=changehead("blue")>blue</button>
+<p>this is a paragraph</p>
+<button onclick=changeback("pink")>pink</button>
+<button onclick=changeback("green")>green</button>
+<button onclick=changeback("orange")>orange</button>
+<script>
+function changeback(color){
+document.body.style.background=color
+}
+function changehead(color){
+var c=document.getElementById("h");
+c.style.background=color
+}
+</script>
+</head>
+</body>
+</html>

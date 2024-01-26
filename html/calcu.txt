@@ -1,0 +1,74 @@
+<html> 
+<head>
+<title>Adding Two Numbers</title>
+<style>
+h1 {
+color: green;
+text-align: center;
+}
+p {
+color: black;
+text-align: center;
+font-weight: bold;
+}
+button {
+color: red;
+font-weight: bold;
+}
+body {
+background-color: green;
+}
+button {
+margin-bottom: 10px; 
+}
+</style>
+</head>
+<body>
+<form>
+<h1>Calculator</h1>
+<p>Enter First Number: <input type="textbox" id="a"></p>
+<br>
+<br>
+<p>Enter Second Number: <input type="textbox" id="b"></p>
+<br>
+<br>
+<center>
+<button type="button" onclick="calculateSum()">Sum</button>: <input 
+type="text" id="sum"><br><br>
+<button type="button" onclick="calculatereminder()">Reminder</button>: 
+<input type="text" id="reminder"><br><br>
+<button type="button" onclick="calculatedivision()">Division</button>: <input 
+type="text" id="division"><br><br>
+<button type="button" 
+onclick="calculatemultiplication()">Multiplication</button>: <input 
+type="text" id="multiplication"><br><br>
+</center>
+</form>
+<script>
+function calculateSum() {
+var a = parseFloat(document.getElementById("a").value);
+var b = parseFloat(document.getElementById("b").value);
+var sum = a + b;
+document.getElementById("sum").value = sum;
+}
+function calculatereminder() {
+var a = parseFloat(document.getElementById("a").value);
+var b = parseFloat(document.getElementById("b").value);
+var reminder = a - b;
+document.getElementById("reminder").value = reminder;
+}
+function calculatedivision() {
+var a = parseFloat(document.getElementById("a").value);
+var b = parseFloat(document.getElementById("b").value);
+var division = a / b;
+document.getElementById("division").value = division;
+}
+function calculatemultiplication () {
+var a = parseFloat (document. getElementById("a").value);
+var b = parseFloat (document. getElementById("b").value);
+var multiplication = a * b;
+document. getElementById("multiplication").value = multiplication;
+}
+</script>
+</body>
+</html>

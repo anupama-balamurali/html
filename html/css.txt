@@ -1,0 +1,198 @@
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0;
+ cursor: pointer;
+ }
+ .background {
+ background color: rgb(246, 244, 246);
+ background-blend-mode: darken;
+ background-size: cover;
+ }
+ .nav-list {
+ width: 70%;
+ display: flex;
+ align-items: center;
+ }
+ .logo {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .logo img {
+ width: 100px;
+ border-radius: 50px;
+ }
+ .nav-list li {
+ list-style: none;
+padding: 26px 30px;
+ }
+ .nav-list li a {
+ text-decoration: none;
+ color: rgb(9, 8, 8);
+ }
+ .nav-list li a:hover {
+ color: grey;
+ }
+ .rightnav {
+ text-align: right;
+ }
+ .background1{
+ width:100%;
+ height:30%;
+ }
+ .text-footer {
+ text-align:center;
+ padding: 30px;
+ font-family: 'Ubuntu','sans-serif';
+ display: flex;
+ justify-content:center;
+ color:rgb(99, 96, 96);
+ }
+ </style>
+</head>
+<body>
+<nav class="navbar background">
+ <ul class="nav-list">
+ <div class="logo">
+ <img src= "C:\Users\hp\OneDrive\Pictures\Saved Pictures\logo.png">
+ <h1>Faces</h1>
+ </div>
+ <li><a href="about1.html">ABOUT US</a></li>
+ <li><a href="contact.html">CONTACT</a></li>
+ <li><a href="footwear.html">FOOTWEARS</a></li>
+ <li><a href="makeup.html">MAKEUP</a></li>
+ <li><a href="#course">OFFERS</a></li>
+ </ul>
+ <div class="rightNav">
+ <ul class="nav-list">
+ <li><a href="register.html">SIGN IN</a></li>
+ </ul>
+ </div>
+ </nav>
+ <section class="firstsection">
+ <div class="background1">
+ <center><img src= "C:\Users\hp\OneDrive\文档\cover page.jpg" 
+width="60%"></center>
+ </div>
+ </section>
+ <footer class="background">
+ <p class="text-footer">
+ Copyright@-All rights are reserved
+ </p>
+</footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Shopping Website</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="pink">
+<div class="cc">
+ <h1 style="font-family: 'Roboto';">FOOTWEARS</h1>
+ </div>
+ 
+ <nav>
+ <a href="shopping.html">Home</a>
+ </nav>
+ <div class="container">
+ <table>
+ <td>
+ <div class="product-card">
+ <div class="product-image"></div>
+ <img src="C:\Users\hp\OneDrive\Pictures\Saved Pictures\heels.jpg" 
+height="250px" width="200px">
+ <div class="product-title">Versace la medusa</div>
+ <div class="product-price">$12</div>
+ <button>Add to Cart</button>
+ </div>
+ </td>
+ <td>
+ <div class="product-card">
+ <div class="product-image"></div>
+ <img src="C:\Users\hp\OneDrive\Pictures\Saved 
+Pictures\heel2.jpg" height="250px" width="200px">
+ <div class="product-title">Versace jeans courture</div>
+ <div class="product-price">$20</div>
+ <button>Add to Cart</button>
+ </div>
+</td>
+ <td>
+ <div class="product-card">
+ <div class="product-image"></div>
+ <img src="C:\Users\hp\OneDrive\Pictures\Saved 
+Pictures\heel3.jpg" height="250px" width="200px">
+ <div class="product-title">Versace gianna ribbon</div>
+ <div class="product-price">$15</div>
+ <button>Add to Cart</button>
+ </div>
+ </td>
+ </table>
+ </div>
+</body>
+</html>
+
+Style.css
+body{
+ font-family: Arial, sans-serif;
+ background-color: #f2f2f2;
+ margin: 0;
+ padding: 0;
+ 
+ }
+ .cc {
+ height: 300px;
+ background-image: url('may.jpg');
+ background-size: 500px;
+color: rgb(246, 242, 245);
+ text-align: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ nav {
+ background-color: #f1f0f5;
+ text-align: center;
+ padding: 10px;
+ }
+ nav a {
+ text-decoration: none;
+ color: #fff;
+ margin: 10px;
+ }
+ .container {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #f067d0;
+ }
+ h1 {
+ text-align: center;
+}
+ /* Product card styles */
+ .product-card {
+ width: 300px;
+ border: 1px solid #ddd;
+ margin: 10px;
+ padding: 10px;
+ text-align: center;
+ background-color: #fff;
+ }
+ .product-image {
+ width: 70px;
+ height: 70px;
+ margin: 0 auto;
+ 
+ }
+ .product-title {
+ font-weight: bold;
+ margin: 10px 0;
+ }
+ .product-price {
+ color: #e74c3c;
+ }
+
+
